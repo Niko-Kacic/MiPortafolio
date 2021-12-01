@@ -4,7 +4,7 @@ body {
 
 /* nav bar */
 .navbar {
-    background-color: #660066;
+    background-color: #db5406;
     position: fixed;
     width: 100vw;
     z-index: 1;
@@ -80,7 +80,7 @@ body {
 
 /* Mis ultimos trabajos */
 #trabajos {
-    background-color: #660066;
+    background-color: #db5406;
     font-family: "Oswald";
 }
 
@@ -93,4 +93,18 @@ body {
 #contacto h1 {
     font-family: "Oswald";
     font-size: 52px;
+}
+
+/* footer  */
+
+#footer {
+    background-color: #db5406;
+}
+
+#footer h1 {
+    font-family: "Oswald";
+}
+
+#footer a {
+    color: #000;
 }

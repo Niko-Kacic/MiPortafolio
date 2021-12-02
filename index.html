@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  </style>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">M</a>
+          <a class="navbar-brand text-black" href="#">NK</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,16 +22,16 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
               <li class="nav-item">
-                <a class="nav-link" href="#Sobre-Mi">Sobre Mi</a>
+                <a class="nav-link text-black" href="#sobre-mi">Sobre Mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Experiencia">Experiencia</a>
+                <a class="nav-link text-black" href="#experiencia">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Trabajos">Trabajos</a>
+                <a class="nav-link text-black" href="#trabajos">Trabajos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Contacto">Contacto</a>
+                <a class="nav-link text-black" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -46,16 +47,23 @@
     <section id="sobre-mi" class="pt-5 container d-none d-sm-block">
         <div>
           <h4 class="text-center fw-bold">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
+            Me presento. <br> Soy Nicolas Kacic, actual estudiante de programación del lenguaje JavaScript. Con ganas aprender cada vez más de este mundo del desarrollo y con pasión por la ciencia y tecnología.
           </h4>
           <hr class="opacity-100 w-25 mx-auto">
         </div>
         <div class="row pt-3">
           <div class="col-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</p>
+            <p>Un poco sobre mí: Desde pequeño me llamo la atención el cómo funcionaban las cosas, por eso desarrolle una curiosidad hacia las ciencias, aunque realmente nunca la explote a mi corta edad como debió ser (Quizás las cosas ahora serian diferentes, ¿quién sabe?).
+              Luego de terminar mi educación media siempre tuve una voz en mi cabeza que la tecnología y la ciencia eran divertidas, pero ignorantemente renegaba de ellas por tener la tipica idea de las cosas nerd (nada más alejado de la realidad). 
+              Por lo cual me decante por una carrera que pudiera darme estabilidad económica y que equivocado estaba.
+            <br>
+            Mi primera carrera pese a que no fue lo que realmente me gustaba, aprendí muchas cosas interesantes lo cual siempre para mí ha sido gratificante, lograr aprender algo nuevo y poder aplicarlo en la vida. Luego esa sensación de querer aprender lo que siempre renegué aparecía en mí cada vez más y más.
+            </p>
           </div>
           <div class="col-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</p>
+            <p>Luego de dedicarme a rubros un poco alejados de la tecnología, surgió en mí esa necesidad de querer aprender lo que siempre he querido y me ha gustado, pese a ignorarlo en mis años más jóvenes (crisis vocacional ¿lo podríamos llamar?). Primero comencé aprendiendo de forma autodidacta, y me encanté con el mundo de la Física, ya que explicar el porqué de las cosas a nivel existencial no era tan entretenido, en la Física se pregunta el cómo todo funciona, preguntas interesantes aparecían 
+              ¿Cómo es que la velocidad de la luz es la misma si el observador está quieto o en movimiento? ¿Cómo llego Demócrito a la idea del átomo y de la misma manera, Dalton, Thompson, Rutherford y Dirá lograron formar la teoría del átomo? Y podría seguir y seguir.
+              Pero lo que más me apasiono de la ciencia fue su nomenclatura con la tecnología; electrónica y programación. Lo cual me llevo a un camino un tanto diferente que es el desarrollo y cuál definitivamente me quiero dedicar.</p>
           </div>
         </div>
     </section>
@@ -66,7 +74,10 @@
       </div>
       <div class="row pt-3">
         <article class="col-12 col-sm-6">
-          <i class="fab fa-empire fa-10x"></i>
+          <i class="fab fa-empire fa-10x" 
+          data-bs-toggle="tooltip" 
+          data-bs-placement="top" 
+          title="Tooltip on top"></i>></i>
           <h4 class="fw-bold mt-3">Stormtrooper</h4>
           <h4>1980 - 2014</h4>
         </article>
@@ -79,8 +90,8 @@
     </section>
     <section id="trabajos" class="py-5">
       <div>
-        <h1 class="fw-bold text-center text-uppercase mt-2 text-white">Mis Ultimos Trabajos</h1>
-        <hr class="bg-white opacity-100 mx-auto w-25">
+        <h1 class="fw-bold text-center text-uppercase mt-2 text-black">Mis Ultimos Trabajos</h1>
+        <hr class="bg-black opacity-100 mx-auto w-25">
       </div>
 
       <div class="container">
@@ -176,7 +187,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-6">
-            <h1 class="fw-bold text-uppercase">Nicolas</h1>
+            <h1 class="fw-bold text-uppercase text-black">Nicolas</h1>
           </div>
           <div class="col-12 col-sm-6">
             <a href="#"><i class="fab fa-github fa-3x"></i></a>
@@ -188,7 +199,8 @@
       </div>
     </footer>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>  
 </body>
 </html>

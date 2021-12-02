@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: auto !important;
+}
+
 body {
     font-family: Helvetica;
 }
@@ -15,6 +19,7 @@ body {
     font-size: 40px;
     font-weight: 700;
 }
+
 
 /* hero section */
 
